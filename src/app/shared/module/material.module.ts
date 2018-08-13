@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
 import {
   MatToolbarModule,
   MatFormFieldModule,
@@ -13,7 +13,7 @@ import {
   MatCardModule,
   MatTabsModule,
   MatGridListModule
-} from "@angular/material";
+} from '@angular/material';
 
 @NgModule({
   imports: [
