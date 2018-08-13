@@ -9,7 +9,7 @@ import { Dashboard } from './dashboard';
 export class DashboardService {
   constructor(private httpClient: HttpClient) {}
 
-  getByID(): Observable<Dashboard> {
+  getByID(id: number): Observable<Dashboard> {
     return this.httpClient.get<Dashboard>('');
   }
 }
